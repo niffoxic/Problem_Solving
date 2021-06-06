@@ -79,7 +79,7 @@ def upper_bound(checking_on_the_arr: list, size_of_the_arr: int, key_we_need: in
     else:
         while temp_variable < size_of_the_arr and checking_on_the_arr[index_locally] == checking_on_the_arr[temp_variable]:
             temp_variable += 1
-        return min(temp_variable, size_of_the_arr - 1)
+        return min(temp_variable, size_of_the_arr)
 
 def binary_search(checking_on_the_target, left_region: int, right_region: int, key_we_need: int) -> int:
     while left_region <= right_region:
