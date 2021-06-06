@@ -9,7 +9,7 @@ from io import BytesIO, IOBase
 
 
 def main():
-    print("Hello CP world")
+    print("Coding area")
 
 
 # Settings
@@ -17,7 +17,6 @@ sys.setrecursionlimit(10000000)
 # Settings End
 
 # region fast_io
-
 BUFSIZE = 8192
 
 
@@ -65,16 +64,23 @@ class IOWrapper(IOBase):
 
 sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
 input = lambda: sys.stdin.readline().rstrip("\r\n")
-
 # endregion
 
 
 # Templates Start
 def upper_bound(checking_on_the_arr: list, size_of_the_arr: int, key_we_need: int) -> int:
-    index_locally = 0
-    while index_locally < size_of_the_arr and checking_on_the_arr[index_locally] <= key_we_need:
-        index_locally += 1
-    return index_locally
+    index_locally = binary_search(checking_on_the_arr, 0, size_of_the_arr - 1, key_we_need)
+    temp_variable = index_locally
+    if index_locally == -1:
+        index_locally = 0
+        while index_locally < size_of_the_arr and checking_on_the_arr[index_locally] <= key_we_need:
+            index_locally += 1
+        return index_locally
+    else:
+        while temp_variable < size_of_the_arr and checking_on_the_arr[index_locally] == checking_on_the_arr[temp_variable]:
+            temp_variable += 1
+        return min(temp_variable, size_of_the_arr - 1)
+
 def binary_search(checking_on_the_target, left_region: int, right_region: int, key_we_need: int) -> int:
     while left_region <= right_region:
         mid_region = left_region + (right_region - left_region) // 2
@@ -85,8 +91,6 @@ def binary_search(checking_on_the_target, left_region: int, right_region: int, k
         else:
             left_region = mid_region + 1
     return -1
-
-
 # Templates End
 
 
