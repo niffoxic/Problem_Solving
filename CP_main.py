@@ -8,11 +8,12 @@ import time
 from functools import reduce, cache, lru_cache
 from io import BytesIO, IOBase
 import math
+from collections import defaultdict
 # Modules End
 
 
 def main():
-    pass
+    print("Happy coding")
 
 
 # Settings
@@ -69,8 +70,9 @@ sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
 input = lambda: sys.stdin.readline().rstrip("\r\n")
 # endregion
 
-def lcm(a, b):
-    return a // math.gcd(a, b) * b
+
+def lcm(number_one_here, number_two_here):
+    return number_one_here // math.gcd(number_one_here, number_two_here) * number_two_here
 
 
 if __name__ == '__main__':
