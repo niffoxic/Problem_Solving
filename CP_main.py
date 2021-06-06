@@ -4,14 +4,15 @@
 from __future__ import division, print_function
 import sys
 import os
-from functools import reduce
+import time
+from functools import reduce, cache, lru_cache
 from io import BytesIO, IOBase
 import math
 # Modules End
 
 
 def main():
-    print("Code here")
+    pass
 
 
 # Settings
