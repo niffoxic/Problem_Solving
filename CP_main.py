@@ -13,7 +13,7 @@ from collections import defaultdict
 
 
 def main():
-    print("Happy coding")
+    pass
 
 
 # Settings
@@ -71,8 +71,14 @@ input = lambda: sys.stdin.readline().rstrip("\r\n")
 # endregion
 
 
-def lcm(number_one_here, number_two_here):
-    return number_one_here // math.gcd(number_one_here, number_two_here) * number_two_here
+def sieve(n=80):
+    sieve_arr = [True] * n
+    sieve_arr[0] = sieve_arr[1] = False
+    sieve_arr[4::2] = [False] * len(range(4, len(sieve_arr), 2))
+    for i in range(3, int(math.sqrt(len(sieve_arr))) + 1, 2):
+        if sieve_arr[i]:
+            sieve_arr[i * i::i] = [False] * len(range(i * i, len(sieve_arr), i))
+    return sieve_arr
 
 
 if __name__ == '__main__':
