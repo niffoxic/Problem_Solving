@@ -9,7 +9,7 @@ from io import BytesIO, IOBase
 
 
 def main():
-    print("Coding area")
+    pass
 
 
 # Settings
@@ -65,33 +65,6 @@ class IOWrapper(IOBase):
 sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
 input = lambda: sys.stdin.readline().rstrip("\r\n")
 # endregion
-
-
-# Templates Start
-def upper_bound(checking_on_the_arr: list, size_of_the_arr: int, key_we_need: int) -> int:
-    index_locally = binary_search(checking_on_the_arr, 0, size_of_the_arr - 1, key_we_need)
-    temp_variable = index_locally
-    if index_locally == -1:
-        index_locally = 0
-        while index_locally < size_of_the_arr and checking_on_the_arr[index_locally] <= key_we_need:
-            index_locally += 1
-        return index_locally
-    else:
-        while temp_variable < size_of_the_arr and checking_on_the_arr[index_locally] == checking_on_the_arr[temp_variable]:
-            temp_variable += 1
-        return min(temp_variable, size_of_the_arr)
-
-def binary_search(checking_on_the_target, left_region: int, right_region: int, key_we_need: int) -> int:
-    while left_region <= right_region:
-        mid_region = left_region + (right_region - left_region) // 2
-        if checking_on_the_target[mid_region] == key_we_need:
-            return mid_region
-        elif checking_on_the_target[mid_region] > key_we_need:
-            right_region = mid_region - 1
-        else:
-            left_region = mid_region + 1
-    return -1
-# Templates End
 
 
 if __name__ == '__main__':
