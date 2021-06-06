@@ -8,25 +8,8 @@ from io import BytesIO, IOBase
 # Modules End
 
 
-def greedy_time(arr):
-    res = 1
-    index = 0
-    for i in range(1, len(arr)):
-        if arr[index][1] <= arr[i][0]:
-            index = i
-            res += 1
-    return res
-
-
 def main():
-    t = int(input())
-    while t:
-        t -= 1
-        g = []
-        for _ in range(int(input())):
-            g += [list(map(int, input().split()))]
-        g.sort(key=lambda key: key[1])
-        print(greedy_time(g))
+    print("Hello CP world")
 
 
 # region fast_io
