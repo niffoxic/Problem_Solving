@@ -49,8 +49,6 @@ class FastIO(IOBase):
         if self.writable:
             os.write(self._fd, self.buffer.getvalue())
             self.buffer.truncate(0), self.buffer.seek(0)
-
-
 class IOWrapper(IOBase):
     def __init__(self, file):
         self.buffer = FastIO(file)
@@ -73,6 +71,18 @@ def upper_bound(checking_on_the_arr: list, size_of_the_arr: int, key_we_need: in
     while index_locally < size_of_the_arr and checking_on_the_arr[index_locally] <= key_we_need:
         index_locally += 1
     return index_locally
+def binary_search(checking_on_the_target, left_region: int, right_region: int, key_we_need: int) -> int:
+    while left_region <= right_region:
+        mid_region = left_region + (right_region - left_region) // 2
+        if checking_on_the_target[mid_region] == key_we_need:
+            return mid_region
+        elif checking_on_the_target[mid_region] > key_we_need:
+            right_region = mid_region - 1
+        else:
+            left_region = mid_region + 1
+    return -1
+
+
 # Templates End
 
 
