@@ -4,6 +4,7 @@
 from __future__ import division, print_function
 import sys
 import os
+import threading
 from io import BytesIO, IOBase
 # Modules End
 
@@ -11,6 +12,13 @@ from io import BytesIO, IOBase
 def main():
     print("Hello CP world")
 
+
+# Settings
+sys.setrecursionlimit(10000000)
+threading.stack_size(1024000)
+thread = threading.Thread(target=main)
+thread.start()
+# Settings End
 
 # region fast_io
 
