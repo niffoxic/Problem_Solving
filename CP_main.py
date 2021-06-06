@@ -4,12 +4,14 @@
 from __future__ import division, print_function
 import sys
 import os
+from functools import reduce
 from io import BytesIO, IOBase
+import math
 # Modules End
 
 
 def main():
-    pass
+    print("Code here")
 
 
 # Settings
@@ -65,6 +67,9 @@ class IOWrapper(IOBase):
 sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
 input = lambda: sys.stdin.readline().rstrip("\r\n")
 # endregion
+
+def lcm(a, b):
+    return a // math.gcd(a, b) * b
 
 
 if __name__ == '__main__':
