@@ -15,9 +15,6 @@ def main():
 
 # Settings
 sys.setrecursionlimit(10000000)
-threading.stack_size(1024000)
-thread = threading.Thread(target=main)
-thread.start()
 # Settings End
 
 # region fast_io
