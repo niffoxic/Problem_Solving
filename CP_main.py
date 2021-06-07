@@ -14,8 +14,7 @@ from collections import defaultdict
 
 
 def main():
-    a = sliding_window([2, 3, 2, 4], 2, "*")
-    print(a)
+    pass
 
 
 # Settings
@@ -81,30 +80,6 @@ def sieve(n: int) -> list:
         if sieve_arr[i]:
             sieve_arr[i * i::i] = [False] * len(range(i * i, len(sieve_arr), i))
     return sieve_arr
-
-def sliding_window(array: list, window_size: int, operator_string: str) -> int:
-    ops = {
-        '+': operator.add,
-        '-': operator.sub,
-        '*': operator.mul,
-        '^': operator.xor,
-    }
-    ops_back = {
-        '+': operator.sub,
-        '-': operator.add,
-        '*': operator.truediv,
-        '^': operator.xor,
-    }
-    initial = 1 if operator_string == "*" else 0
-    for i in range(window_size):
-        initial = ops[operator_string](initial, array[i])
-    result = initial
-    for i in range(window_size, len(array)):
-        initial = ops[operator_string](initial, array[i])
-        initial = ops_back[operator_string](initial, array[i - window_size])
-        result = max(initial, result)
-    return int(result) if operator_string == "*" else result
-
 
 if __name__ == '__main__':
     main()
