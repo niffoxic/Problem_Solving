@@ -81,6 +81,7 @@ def sieve(n: int) -> list:
         if sieve_arr[i]:
             sieve_arr[i * i::i] = [False] * len(range(i * i, len(sieve_arr), i))
     return sieve_arr
+
 def sliding_window(array: list, window_size: int, operator_string: str) -> int:
     ops = {
         '+': operator.add,
