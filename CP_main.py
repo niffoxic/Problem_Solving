@@ -8,12 +8,14 @@ import time
 from functools import reduce, cache, lru_cache
 from io import BytesIO, IOBase
 import math
+import operator
 from collections import defaultdict
 # Modules End
 
 
 def main():
-    pass
+    a = sliding_window([2, 3, 2, 4], 2, "*")
+    print(a)
 
 
 # Settings
@@ -71,7 +73,7 @@ input = lambda: sys.stdin.readline().rstrip("\r\n")
 # endregion
 
 
-def sieve(n=80):
+def sieve(n: int) -> list:
     sieve_arr = [True] * n
     sieve_arr[0] = sieve_arr[1] = False
     sieve_arr[4::2] = [False] * len(range(4, len(sieve_arr), 2))
@@ -79,6 +81,34 @@ def sieve(n=80):
         if sieve_arr[i]:
             sieve_arr[i * i::i] = [False] * len(range(i * i, len(sieve_arr), i))
     return sieve_arr
+def sliding_window(array: list, window_size: int, operator_string: str) -> int:
+    """
+    :param array:
+    :param window_size:
+    :param operator_string: work well with only + - and * for now ( need to update )
+    :return: max_value found only ( need to update )
+    """
+    ops = {
+        '+': operator.add,
+        '-': operator.sub,
+        '*': operator.mul,
+        '^': operator.xor,
+    }
+    ops_back = {
+        '+': operator.sub,
+        '-': operator.add,
+        '*': operator.truediv,
+        '^': operator.xor,
+    }
+    initial = 1 if operator_string == "*" else 0
+    for i in range(window_size):
+        initial = ops[operator_string](initial, array[i])
+    result = initial
+    for i in range(window_size, len(array)):
+        initial = ops[operator_string](initial, array[i])
+        initial = ops_back[operator_string](initial, array[i - window_size])
+        result = max(initial, result)
+    return int(result) if operator_string == "*" else result
 
 
 if __name__ == '__main__':
