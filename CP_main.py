@@ -82,12 +82,6 @@ def sieve(n: int) -> list:
             sieve_arr[i * i::i] = [False] * len(range(i * i, len(sieve_arr), i))
     return sieve_arr
 def sliding_window(array: list, window_size: int, operator_string: str) -> int:
-    """
-    :param array:
-    :param window_size:
-    :param operator_string: work well with only + - and * for now ( need to update )
-    :return: max_value found only ( need to update )
-    """
     ops = {
         '+': operator.add,
         '-': operator.sub,
