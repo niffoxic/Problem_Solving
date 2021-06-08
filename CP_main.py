@@ -78,24 +78,5 @@ input = lambda: sys.stdin.readline().rstrip("\r\n")
 # endregion
 
 
-def sieve(n: int) -> list:
-    sieve_arr = [True] * n
-    sieve_arr[0] = sieve_arr[1] = False
-    sieve_arr[4::2] = [False] * len(range(4, len(sieve_arr), 2))
-    for i in range(3, int(math.sqrt(len(sieve_arr))) + 1, 2):
-        if sieve_arr[i]:
-            sieve_arr[i * i::i] = [False] * len(range(i * i, len(sieve_arr), i))
-    return sieve_arr
-def sliding_window(array: list, window_size: int, operator_string: str) -> int:
-    ops = {
-        '+': operator.add,
-        '-': operator.sub,
-        '*': operator.mul,
-        '^': operator.xor,
-        '|': operator.or_,
-    }
-    return max(reduce(ops[operator_string], array[i:i + window_size]) for i in range(len(array) - window_size + 1))
-
-
 if __name__ == '__main__':
     main()
