@@ -1,4 +1,4 @@
-# Coded BY NIFFOXIC
+# Coded BY NONTOXIC
 
 # Modules Start
 from __future__ import division, print_function
@@ -12,9 +12,15 @@ import operator
 from collections import defaultdict
 # Modules End
 
+# Helpers
+INT_MAX = int(1.e10)
+INT_MIN = int(-1.e10)
+mod = int(1.e9) + 7
+# Helpers End
+
 
 def main():
-    pass
+    print("Hello CP world")
 
 
 # Settings
@@ -80,6 +86,16 @@ def sieve(n: int) -> list:
         if sieve_arr[i]:
             sieve_arr[i * i::i] = [False] * len(range(i * i, len(sieve_arr), i))
     return sieve_arr
+def sliding_window(array: list, window_size: int, operator_string: str) -> int:
+    ops = {
+        '+': operator.add,
+        '-': operator.sub,
+        '*': operator.mul,
+        '^': operator.xor,
+        '|': operator.or_,
+    }
+    return max(reduce(ops[operator_string], array[i:i + window_size]) for i in range(len(array) - window_size + 1))
+
 
 if __name__ == '__main__':
     main()
