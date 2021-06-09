@@ -1,4 +1,4 @@
-# Coded BY NONTOXIC
+# Coded BY NIFFOXIC
 
 # Modules Start
 from __future__ import division, print_function
