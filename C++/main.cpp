@@ -23,6 +23,7 @@ using vpd = vector<pdb>;
 #define s second
 #define pb push_back
 #define lb lower_bound
+#define up upper_bound
 
 const int mod = 1e9+7;
 
@@ -32,7 +33,8 @@ int main()
     cin.tie(0); cout.tie(0);
     int t;
     cin >> t;
-
+    // t = 1;
+    
     while(t--){
 
     }
