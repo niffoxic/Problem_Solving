@@ -11,8 +11,8 @@ from collections import defaultdict
 # Modules End
 
 # Helpers
-INT_MAX = int(1.e10)
-INT_MIN = int(-1.e10)
+INT_MAX = 2147483647
+INT_MIN = -2147483648
 mod = int(1.e9) + 7
 # Helpers End
 
