@@ -18,8 +18,8 @@ using str = string;
 using db = long double;
 using ull = unsigned long long;
 
-using pi = pair<int, int>;
-using pl = pair<ll, ll>;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
 using pdb = pair<db, db>;
 
 using vi = vector<int>;
@@ -27,8 +27,8 @@ using vb = vector<bool>;
 using vll = vector<ll>;
 using vd = vector<db>;
 using vs = vector<str>;
-using vpi = vector<pi>;
-using vpl = vector<pl>;
+using vpi = vector<pii>;
+using vpl = vector<pll>;
 using vpd = vector<pdb>;
 
 #define mp make_pair
