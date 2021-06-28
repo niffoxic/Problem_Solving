@@ -35,11 +35,11 @@ int editDistance2(string s1, string s2){
             }
         }
     }
-    for(int i = 0; i <= n; i++){
-        for(int j = 0; j <= m; j++){
-            cout << dp4[i][j] << " ";
-        }
-        print("")
-    }
+//     for(int i = 0; i <= n; i++){
+//         for(int j = 0; j <= m; j++){
+//             cout << dp4[i][j] << " ";
+//         }
+//         print("")
+//     }
     return dp4[n][m];
 }
