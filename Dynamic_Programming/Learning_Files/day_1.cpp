@@ -2,7 +2,7 @@
 
 
 
-//                                                             1st Day for Dynamic programming  <3 <3 ( gulabi dil )
+//                                                             Dynamic programming - Day 1  <3 <3 ( gulabi dil )
 
 
 
