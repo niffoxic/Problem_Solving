@@ -15,3 +15,21 @@ long long int count(int c[], int m, int n){
     for(auto & i : dp) for(long long & j : i) j = 0;
     return rcount(c, m, n);
 }
+
+
+// bottom up DP 
+
+long long count1(int const coins[], int m, int n){
+    for(auto & i : dp) for(long long & j : i) j = 0;
+    for(int i = 0; i <= m; i++) dp[0][i] = 1;
+    dp[0][0] = 1;
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= m; j++){
+            dp[i][j] = dp[i][j - 1];
+            if (i - coins[j - 1] >= 0){
+                dp[i][j] += dp[i - coins[j - 1]][j];
+            }
+        }
+    }
+    return dp[n][m];
+}
