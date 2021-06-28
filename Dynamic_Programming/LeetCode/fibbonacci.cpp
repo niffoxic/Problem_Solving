@@ -1,4 +1,4 @@
-// can be optimsed easily but soo basic question so I didnt bother to do that
+// can be optimsed easily but too basic question so I didnt bother to do that
 using ull = unsigned long long;
 
 ull fib(ull n, ull dp[]){
