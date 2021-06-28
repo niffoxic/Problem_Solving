@@ -1,5 +1,7 @@
 
 // slow but it ll work :(
+// arr[10^4][100] is faster than arr[100][10^4]
+
 int dp[10000][100];
 
 int solving(string s1, string s2, int n1, int n2, int i, int j){
