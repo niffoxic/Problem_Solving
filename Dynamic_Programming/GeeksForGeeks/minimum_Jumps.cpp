@@ -21,7 +21,7 @@ int minJump(int arr[], int n) {
     for (int i = 0; i < 10000000; i++) dp7[i] = -1;
     return minJumpsRecursion(arr, n);
 }
- // ---------------------------------------Recursive solution ( little faster ) Solution 2 ------------------------------------------
+ // ---------------------------------------Bottom UP DP ( little faster ) Solution 2 ------------------------------------------
 // Bottom Up DP
 int minJumps(int arr[], int n) {
     int* dp8 = new int[n];
@@ -38,7 +38,7 @@ int minJumps(int arr[], int n) {
     }
     return dp8[n - 1] == INT_MAX ? -1 : dp8[n - 1];
 }
- // ---------------------------------------Recursive solution ( Fast ) Solution 3------------------------------------------------
+ // ---------------------------------------Linear time ( Fast ) Solution 3------------------------------------------------
 // Optimised
 
 int minJumps(int arr[], int n) {
