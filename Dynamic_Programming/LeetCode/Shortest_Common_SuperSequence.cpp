@@ -1,4 +1,4 @@
-// Shortest Common SuperSequence ----- *Add string 1 and str 2 and lcs goes all together 
+// Shortest Common SuperSequence ----- *IMP string 1 and str 2 and lcs goes all together 
 string shortestCommonSupersequence(string s1, string s2){
     int n = s1.length();
     int m = s2.length();
