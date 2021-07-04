@@ -16,6 +16,7 @@ int solve(string &s1, int i, int j){
 
     int res = INT_MAX;
     for(int k = i; k < j; k++){
+        // int current = 1 + solve(s1, i, k) + solve(s1, k + 1, j);     ----------> Can be Optimised
         int current = 1;
         current += dp[i][k] == -1? solve(s1, i, k): dp[i][k];
         current += dp[k + 1][j] == -1? solve(s1, k + 1, j): dp[k + 1][j];
