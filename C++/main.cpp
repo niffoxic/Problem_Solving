@@ -1,4 +1,4 @@
-// #include <bits/stdc++.h
+//#include <bits/stdc++.h>
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -12,6 +12,7 @@
 #include <set>
 #include <algorithm>
 #include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -33,6 +34,7 @@ using vpi = vector<pii>;
 using vpl = vector<pll>;
 using vpd = vector<pdb>;
 using umi = unordered_map<int, int>;
+using uml = unordered_map<ll, ll>;
 
 #define print(x) cout << x << nn;
 #define all(x) x.begin(), x.end()
@@ -59,21 +61,21 @@ template <typename T, typename S> ostream &operator<<(ostream &os, const map<T, 
 template <typename T, typename S> ostream &operator<<(ostream &os, const pair<T, S> &v);
 template <typename T> inline istream &operator>>(istream &in, vector<T> &a);
 // ****************************************************************************************
-
 const int mod = 1e9+7;
+
+
 
 int main()
 {
-//  freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
+    //  freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
 
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
-    int t = 1;
-    // cin >> t;
-    while(t--)
-    {
-        int n; cin >> n;
-     
+    int test_case = 1;
+    // cin >> test_case;
+    while(test_case--){
+
     }
+
     return 0;
 }
