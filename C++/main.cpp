@@ -1,4 +1,3 @@
-//#include <bits/stdc++.h>
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -36,7 +35,7 @@ using vpd = vector<pdb>;
 using umi = unordered_map<int, int>;
 using uml = unordered_map<ll, ll>;
 
-#define print(x) cout << x << nn;
+#define print(x) cout << (x) << nn;
 #define all(x) x.begin(), x.end()
 
 #define mp make_pair
@@ -61,21 +60,28 @@ template <typename T, typename S> ostream &operator<<(ostream &os, const map<T, 
 template <typename T, typename S> ostream &operator<<(ostream &os, const pair<T, S> &v);
 template <typename T> inline istream &operator>>(istream &in, vector<T> &a);
 // ****************************************************************************************
+
 const int mod = 1e9+7;
+const int dp_size = 1e5;
 
 
+void solve(int case_no){
+    
+}
 
 int main()
 {
-    //  freopen("input.txt", "r", stdin); freopen("output.txt", "w", stdout);
+
+//#ifndef ONLINE_JUDGE
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+//#endif
 
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
     int test_case = 1;
-    // cin >> test_case;
-    while(test_case--){
-
-    }
+    //cin >> test_case;
+    for(int i = 1; i <= test_case; i++) solve(i);
 
     return 0;
 }
