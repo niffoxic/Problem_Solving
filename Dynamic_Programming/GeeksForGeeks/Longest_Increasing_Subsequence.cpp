@@ -30,7 +30,7 @@ int longest_increasing_subsequence_dp(int arr[], int n){
     return res;
 }
 
-// dp
+// dp with binary
 int longest_increasing_subsequence_BINdp(int arr[], int n){
     int dp[n + 1];
     for(int i = 1; i <= n; i++) dp[i] = INT_MAX;
