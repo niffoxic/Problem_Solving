@@ -49,3 +49,35 @@ int longest_increasing_subsequence_BINdp(int arr[], int n){
     }
     return max_a;
 }
+// Other way
+
+// DP
+int longestSubsequence(int n, int const a[])
+{
+    int dp[n];
+    for(int i = 0; i < n; i++) dp[i] = 1;
+    for(int i = 1; i < n; i++){
+        for(int j = 0; j < i; j++){
+            if (a[i] > a[j]){
+                dp[i] = max(dp[i], dp[j] + 1);
+            }
+        }
+    }
+    int res = *max_element(dp, dp + n);
+    return res;
+}
+// Binary 
+int lis(int n, int arr[]){
+    vector<int> seq;
+    seq.push_back(arr[0]);
+
+    for(int i = 1; i < n; i++){
+        if (arr[i] > seq.back())
+            seq.push_back(arr[i]);
+        else{
+            int index = lower_bound(seq.begin(), seq.end(), arr[i]) - seq.begin();
+            seq[index] = arr[i];
+        }
+    }
+    return seq.size();
+}
