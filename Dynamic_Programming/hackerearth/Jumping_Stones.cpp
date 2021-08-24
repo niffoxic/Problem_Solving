@@ -1,4 +1,4 @@
-
+#include <bits/stdc++.h>
 
 int jumping(int n, int k, int dp[]){
     if (n == 1) return 1;
