@@ -33,6 +33,9 @@ using vs = vector<str>;
 using vpi = vector<pii>;
 using vpl = vector<pll>;
 using vpd = vector<pdb>;
+using vvi = vector<vi>;
+using vvb = vector<vb>;
+using vvll = vector<vll>;
 using umi = unordered_map<int, int>;
 using uml = unordered_map<ll, ll>;
 
