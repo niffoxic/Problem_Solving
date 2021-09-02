@@ -1,5 +1,7 @@
 Hackerearth algorithms section
 https://www.hackerearth.com/practice/algorithms/
+LeetCode
+https://leetcode.com/problemset/all/?page=1
 
 
 1. Searching
