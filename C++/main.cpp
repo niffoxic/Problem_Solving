@@ -1,43 +1,31 @@
-// #include <bits/stdc++.h>
-#include <iostream>
-#include <vector>
-#include <climits>
-#include <cmath>
-#include <stack>
-#include <unordered_map>
-#include <unordered_set>
-#include <map>
-#include <queue>
-#include <deque>
-#include <set>
-#include <algorithm>
-#include <iomanip>
-#include <string>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 using ll = long long;
 using str = string;
-using db = long double;
+using ld = double;
 using ull = unsigned long long;
 
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
-using pdb = pair<db, db>;
+using pld = pair<ld, ld>;
 
 using vi = vector<int>;
 using vb = vector<bool>;
 using vll = vector<ll>;
-using vd = vector<db>;
+using vld = vector<ld>;
 using vs = vector<str>;
-using vpi = vector<pii>;
-using vpl = vector<pll>;
-using vpd = vector<pdb>;
-using vvi = vector<vi>;
-using vvb = vector<vb>;
-using vvll = vector<vll>;
+using vpii = vector<pii>;
+using vpll = vector<pll>;
+using vpld = vector<pld>;
 using umi = unordered_map<int, int>;
 using uml = unordered_map<ll, ll>;
+
+using vvi = vector<vi>;
+using vvll = vector<vll>;
+using vvb = vector<vb>;
+using vvld = vector<vld>;
 
 #define print(x) cout << (x) << nn;
 #define all(x) x.begin(), x.end()
@@ -58,6 +46,7 @@ using uml = unordered_map<ll, ll>;
 #define def auto
 
 // ****************************************************************************************
+// ****************************************************************************************
 template <typename T> ostream &operator<<(ostream &os, const vector<T> &v);
 template <typename T> ostream &operator<<(ostream &os, const set<T> &v);
 template <typename T, typename S> ostream &operator<<(ostream &os, const map<T, S> &v);
@@ -70,7 +59,7 @@ const int dp_size = 1e5;
 
 
 void solve(int case_no){
-    
+
 }
 
 int main()
