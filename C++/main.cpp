@@ -26,6 +26,7 @@ using vvi = vector<vi>;
 using vvll = vector<vll>;
 using vvb = vector<vb>;
 using vvld = vector<vld>;
+using vvpii = vector<vpii>;
 
 #define print(x) cout << (x) << nn;
 #define all(x) x.begin(), x.end()
