@@ -26,7 +26,6 @@ using vvi = vector<vi>;
 using vvll = vector<vll>;
 using vvb = vector<vb>;
 using vvld = vector<vld>;
-using vvpii = vector<vpii>;
 
 #define print(x) cout << (x) << nn;
 #define all(x) x.begin(), x.end()
@@ -53,10 +52,19 @@ template <typename T> ostream &operator<<(ostream &os, const set<T> &v);
 template <typename T, typename S> ostream &operator<<(ostream &os, const map<T, S> &v);
 template <typename T, typename S> ostream &operator<<(ostream &os, const pair<T, S> &v);
 template <typename T> inline istream &operator>>(istream &in, vector<T> &a);
+template<typename T> void print_queue(T q){
+    while(!q.empty()){
+        std::cout << q.top() << " ";
+        q.pop();
+    }
+    std::cout << "\n";
+}
 // ****************************************************************************************
 
 const int mod = 1e9+7;
 const int dp_size = 1e5;
+
+
 
 
 void solve(int case_no){
