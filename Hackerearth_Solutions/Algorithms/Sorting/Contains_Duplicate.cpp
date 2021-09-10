@@ -1,5 +1,5 @@
 
-// Solution 1 - Using HashMap
+// Solution 1 - Using HashMap O(N) time + O(N) space
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -12,7 +12,7 @@ public:
     }
 };
 
-// Solution 2- using sorting
+// Solution 2- using sorting O(NLOGN) time + O(1) space
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
