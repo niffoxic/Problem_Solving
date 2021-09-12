@@ -6,7 +6,6 @@ import os
 from functools import reduce, cache, lru_cache # remove if CodeChef
 from io import BytesIO, IOBase
 import math
-import operator
 from collections import defaultdict
 # Modules End
 
