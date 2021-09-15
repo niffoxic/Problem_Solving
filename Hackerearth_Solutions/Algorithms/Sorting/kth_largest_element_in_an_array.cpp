@@ -1,4 +1,4 @@
-// Lomuto easy 
+// Hoare easy 
 class Solution {
 private:
 
