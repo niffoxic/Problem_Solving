@@ -1,4 +1,4 @@
-int lomuto(int *arr, int start, int end){
+int Hoare(int *arr, int start, int end){
     int pivot = arr[start];
     int i = start - 1, j = start;
     while(j <= end){
@@ -14,7 +14,7 @@ int lomuto(int *arr, int start, int end){
 
 void quickSort(int *arr, int left, int right){
     if (left == right) return;
-    int p = lomuto(arr, left, right);
+    int p = Hoare(arr, left, right);
     quickSort(arr, left, p - 1);
     quickSort(arr, p + 1, right);
 }
