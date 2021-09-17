@@ -2,7 +2,8 @@ Hackerearth algorithms section
 https://www.hackerearth.com/practice/algorithms/
 LeetCode
 https://leetcode.com/problemset/all/?page=1
-
+CodeForces
+https://codeforces.com/problemset
 
 1. Searching
 2. Sorting
