@@ -34,7 +34,8 @@ void Deque::deleteFront() {
 }
 
 void Deque::insertRear(int x){
-    if (isFull()) return;
+    if (isFull())
+        return;
     int cr = (front + currentSize) % capacity;
     arr[cr] = x;
     currentSize++;
