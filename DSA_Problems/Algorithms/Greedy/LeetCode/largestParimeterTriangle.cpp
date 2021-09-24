@@ -25,3 +25,19 @@ public:
         return 0;
     }
 };
+
+// 2nd
+class Solution {
+public:
+
+int largestPerimeter(vector<int>& nums) {
+        ios_base::sync_with_stdio(false);cin.tie(NULL);
+    
+	sort(nums.begin(),nums.end(),greater<int>());
+        for(int i=2;i<size(nums);i++){
+            if(nums[i]+nums[i-1]>nums[i-2])
+                return nums[i]+nums[i-1]+nums[i-2];
+        }
+            return 0;
+    }
+};
