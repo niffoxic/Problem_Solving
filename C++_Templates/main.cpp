@@ -46,7 +46,6 @@ using vvld = vector<vld>;
 #define def auto
 
 // ****************************************************************************************
-// ****************************************************************************************
 template <typename T> ostream &operator<<(ostream &os, const vector<T> &v);
 template <typename T> ostream &operator<<(ostream &os, const set<T> &v);
 template <typename T, typename S> ostream &operator<<(ostream &os, const map<T, S> &v);
