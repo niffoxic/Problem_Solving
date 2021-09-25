@@ -42,7 +42,8 @@ void Deque::insertRear(int x){
 }
 
 int Deque::getFront() {
-    if (isEmpty()) return INT_MIN;
+    if (isEmpty()) 
+       return INT_MIN;
     return front;
 }
 
