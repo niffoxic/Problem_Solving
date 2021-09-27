@@ -2,8 +2,7 @@ Hackerearth
 https://www.hackerearth.com/practice/algorithms/
 LeetCode
 https://leetcode.com/problemset/all/?page=1
-CodeForces
-https://codeforces.com/problemset
+
 
 1. Linear Search
 2. Binary Search
