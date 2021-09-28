@@ -12,8 +12,8 @@ public:
             if (nums[i] > left[i - 1]){
                 auto rhs = right.upper_bound(left[i - 1]);
                 if (rhs != right.end()){
-                    if (*rhs < nums[i])
-                        return true;
+                    if (*rhs < nums[i]){
+                        return true;}
                 }
             }
             right.insert(nums[i]);
