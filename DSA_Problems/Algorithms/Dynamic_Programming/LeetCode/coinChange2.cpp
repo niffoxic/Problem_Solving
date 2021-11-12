@@ -15,7 +15,7 @@ public:
         return left + right;
     }
 
-    int change(int amt, vector<int>& coins) {
+    int change2d(int amt, vector<int>& coins) {
         int n = coins.size();
         int dp[n + 1][amt + 1];
 
@@ -30,5 +30,17 @@ public:
             }
         }
         return dp[n][amt];
+    }
+        int change(int amt, vector<int>& coins) {
+        int dp[amt + 1];
+        for(int i = 0; i <= amt; i++)
+            dp[i] = 0;
+        dp[0] = 1;
+        for(int i: coins){
+            for(int j = i; j <= amt; j++){
+                dp[j] += dp[j - i];
+            }
+        }
+        return dp[amt];
     }
 };
