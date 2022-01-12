@@ -1,4 +1,10 @@
-#define rep(i,start,lim) for(lld i=start;i<lim;i++)
+#include<bits/stdc++.h>
+using namespace std;
+
+#define lim (1e6 + 1)
+using lld = long double;
+
+#define rep(i,start,lim) for(lld i=start;i < lim;i++)
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
