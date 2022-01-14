@@ -1,6 +1,12 @@
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma")
+
 #include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
 
 using namespace std;
+using namespace __gnu_pbds;
 
 using ll = long long;
 using str = string;
@@ -29,7 +35,8 @@ using vvld = vector<vld>;
 
 #define print(x) cout << (x) << nn;
 #define all(x) x.begin(), x.end()
-
+#define pf push_front
+#define ar array
 #define mp make_pair
 #define f first
 #define s second
@@ -43,7 +50,6 @@ using vvld = vector<vld>;
 #define no "no"
 #define No "No"
 #define NO "NO"
-#define def auto
 
 // ****************************************************************************************
 template <typename T> ostream &operator<<(ostream &os, const vector<T> &v);
@@ -51,23 +57,16 @@ template <typename T> ostream &operator<<(ostream &os, const set<T> &v);
 template <typename T, typename S> ostream &operator<<(ostream &os, const map<T, S> &v);
 template <typename T, typename S> ostream &operator<<(ostream &os, const pair<T, S> &v);
 template <typename T> inline istream &operator>>(istream &in, vector<T> &a);
-template<typename T> void print_queue(T q){
-    while(!q.empty()){
-        std::cout << q.top() << " ";
-        q.pop();
-    }
-    std::cout << "\n";
-}
 // ****************************************************************************************
 
-const int mod = 1e9+7;
+const int mod = 1e9 + 7;
 const int dp_size = 1e5;
-
+const ll INF = LLONG_MAX;
 
 
 
 void solve(int case_no){
-
+    cout << "fine";
 }
 
 int main()
@@ -79,7 +78,7 @@ int main()
 //#endif
 
     ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    cin.tie(nullptr); cout.tie(nullptr);
     int test_case = 1;
     //cin >> test_case;
     for(int i = 1; i <= test_case; i++) solve(i);
