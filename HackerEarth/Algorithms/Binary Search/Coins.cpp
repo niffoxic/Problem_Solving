@@ -18,10 +18,8 @@ int main(){
         prefix[i] = (long long)arr[vec[i]] * (long long)vec[i] + (i == 0? 0: prefix[i - 1]);
         suffix[i] = sum - (i == 0? 0: prefix[i - 1]);
     }
-    for(int i = 1; i < vec.size(); i++){
+    for(int i = 1; i < vec.size() && !res; i++)
         if (prefix[i - 1] == suffix[i + 1] || prefix[i - 1] == suffix[i])
                 res = true;
-        if (res) break;
-    }
     return cout << (res ? "YES" : "NO"), 0;
 }
