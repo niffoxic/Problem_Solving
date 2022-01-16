@@ -12,17 +12,17 @@ bool isPrime(long long val) {
 
 int main() {
     int n, k; cin >> n >> k;
-    vector<long long> arr(n), primes(n, 0);
+    vector<long long> arr(n), prefix(n, 0);
     for (int i = 0; i < n; i++) cin >> arr[i];
-    primes[0] = isPrime(arr[0])?1: 0;
+    prefix[0] = isPrime(arr[0]) ? 1 : 0;
     for (int i = 1; i < n; i++)
-        primes[i] = isPrime(arr[i])?primes[i - 1] + 1:primes[i - 1];
+        prefix[i] = isPrime(arr[i]) ? prefix[i - 1] + 1 : prefix[i - 1];
     long long ans = 0, count;
     for (int i = 0; i < n; i++) {
         if (isPrime(arr[i]))
-            count = lower_bound(primes.begin(),primes.end(),primes[i] + k) - primes.begin() - i;
+            count = lower_bound(prefix.begin(), prefix.end(), prefix[i] + k) - prefix.begin() - i;
         else
-            count = lower_bound(primes.begin(),primes.end(),primes[i] + k + 1) - primes.begin() - i;
+            count = lower_bound(prefix.begin(), prefix.end(), prefix[i] + k + 1) - prefix.begin() - i;
         ans += count;
     }
     return cout << ans, 0;
