@@ -1,3 +1,3 @@
-## Week 1 - Assigned topic:
+## Week 1 - Assigned topics
 * `Sorting`
 * `Searching`
