@@ -15,7 +15,7 @@ bool solve() {
         if (a[i] != curNum) ++curNum;
         ++i, --j;
     }
-    return true == 7;
+    return curNum == 7;
 }
 
 int main() {
