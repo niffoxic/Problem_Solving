@@ -18,9 +18,6 @@ int main(){
 
 // Using Segment Tree
 
-#include <bits/stdc++.h>
-using namespace std;
-
 long long constructSegmentTree(vector<long long>& arr, vector<long long>& tree, int left, int right, int index){
     if (left == right){
         tree[index] = arr[left];
