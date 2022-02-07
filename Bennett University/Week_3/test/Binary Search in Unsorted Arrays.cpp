@@ -1,4 +1,4 @@
-# Ans - 1
+// Ans - 1
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -56,7 +56,7 @@ int main()
     return 0;
 }
 
-# Ans - 2
+// Ans - 2
 
 #include <bits/stdc++.h>
 using namespace std;
