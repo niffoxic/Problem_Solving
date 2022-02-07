@@ -1,13 +1,12 @@
 for t in range(int(input())):
-    n = int(input())
-    arr = list(map(int, input().split()))
-    ans = 1
-    arr.sort()
-    for i in arr:
-        if i <= 0:
-            continue
-        if i == ans:
+    s = input()
+    use_power = False
+    ans = 0
+    for i in s:
+        if i == "0" and not use_power:
+            use_power = True
             ans += 1
-        else:
-            break
+        elif i == "1" and use_power:
+            use_power = False
+            ans += 1
     print(ans)
