@@ -1,5 +1,16 @@
 const int dp_size = 1e5;
 
+// updated one
+int lis_new(int n, vector<int>& arr){
+    vector<int> ls;
+    for(auto & x: arr){
+        auto it = upper_bound(ls.begin(), ls.end(), x);
+        if (it == ls.end()) ls.push_back(x);
+        else *it = x;
+    }
+    return ls.size();
+}
+
 // recursion
 int dp_rec[dp_size];
 int longest_increasing_subsequence(int arr[], int prev, int curr, int n) {
