@@ -7,11 +7,11 @@
 <details>
 <summary>Problem List</summary>
 <ul>
-    <li><a href="https://codeforces.com/problemset/problem/1392/A">CF 1392 A</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/1295/A">CF 1295 A</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/1466/B">CF 1466 B</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/514/A">CF 514 A</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/766/B">CF 766 B</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/1392/A">CF 1392 A Omkar and Password</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/1295/A">CF 1295 A Display The Number</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/1466/B">CF 1466 B Last minute enhancements</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/514/A">CF 514 A Chewbaсca and Number</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/766/B">CF 766 B Mahmoud and a Triangle</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1148/A">CF 1148 A</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1321/A">CF 1321 A</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1325/B">CF 1325 B</a></li>
