@@ -1,5 +1,5 @@
 # Greedy
-<a href="https://github.com/the-hyp0cr1t3/CC/blob/master/Beginner%20Topics/%5BS1%5D%20Greed%20is%20good%2C%20sort%20of/%5BEP%202%5D%20Greedy.md">List from</a>
+<a href="https://github.com/the-hyp0cr1t3/CC/blob/master/Beginner%20Topics/%5BS1%5D%20Greed%20is%20good%2C%20sort%20of/%5BEP%202%5D%20Greedy.md">problem ist from</a>
 
 **Reading material:**
 * [Hackerearth [B]](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
