@@ -15,15 +15,21 @@ const int mod = 1e9 + 7;
 const int dp_size = 1e5;
 const ll INF = LLONG_MAX;
 
-ll n, m, q, k, l, r, x, y, z;
+ll n, m, q, k, l, r, x, y, z, c;
 const ll template_array_size = 1e6;
-ll a[template_array_size];
-ll b[template_array_size];
-ll c[template_array_size];
+ll arr[template_array_size];
+ll brr[template_array_size];
+ll crr[template_array_size];
+
+ll Arr[1001][1001];
+ll Brr[1001][1001];
+ll Crr[1001][1001];
+
 string s, t;
 
-void solve(int case_no){
-    
+void solve(int case_no)
+{
+    cout << "Working fine bro" << "\n";
 }
 
 int main()
@@ -37,7 +43,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr); cout.tie(nullptr);
     int test_case = 1;
-    cin >> test_case;
+    // cin >> test_case;
     for(int i = 1; i <= test_case; i++) solve(i);
 
     return 0;
