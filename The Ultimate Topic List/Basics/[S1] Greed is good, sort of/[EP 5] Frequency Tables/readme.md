@@ -8,8 +8,6 @@
 </ul>
 <br/>
 
-<details>
 <summary>Challenging problems</summary>
 <li><a href="https://codeforces.com/problemset/problem/1213/D2">CF 1213 D2</a></li>
 <li><a href="https://codeforces.com/problemset/problem/1269/B">CF 1269 B</a></li>
-</details>
