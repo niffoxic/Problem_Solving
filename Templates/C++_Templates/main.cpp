@@ -5,7 +5,7 @@ using ll = long long;
 using ull = unsigned long long;
 
 #define all(x) x.begin(), x.end()
-#define mp make_pair
+#define mkp make_pair
 #define pb push_back
 #define lb lower_bound
 #define up upper_bound
