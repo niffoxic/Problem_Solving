@@ -1,10 +1,12 @@
 # Greedy
-<a href="https://github.com/the-hyp0cr1t3/CC/blob/master/Beginner%20Topics/%5BS1%5D%20Greed%20is%20good%2C%20sort%20of/%5BEP%202%5D%20Greedy.md">problem ist from</a>
+As the name suggests, a greedy approach is one where (greedily) picking the **best option** at every stage leads to the **best overall outcome**.
 
 **Reading material:**
 * [Hackerearth [B]](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
 
-<summary>Problem List</summary>
+<details>
+<summary>Problems</summary>
+<ul>
 <li><a href="https://codeforces.com/problemset/problem/1392/A">CF 1392 A Omkar and Password</a></li>
 <li><a href="https://codeforces.com/problemset/problem/1295/A">CF 1295 A Display The Number</a></li>
 <li><a href="https://codeforces.com/problemset/problem/1466/B">CF 1466 B Last minute enhancements</a></li>
@@ -19,3 +21,5 @@
 <li><a href="https://codeforces.com/problemset/problem/1406/B">CF 1406 B Maximum Product</a></li>
 <li><a href="https://codeforces.com/contest/1236/problem/C">CF 1236 C Labs</a></li>
 <li><a href="https://codeforces.com/contest/1251/problem/B">CF 1251 B Binary Palindromes</a></li>
+</ul>
+</details>
