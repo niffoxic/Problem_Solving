@@ -15,7 +15,7 @@
     <li><a href="https://codeforces.com/problemset/problem/1143/C">CF 1143 C Queen</a></li>
     <li><a href="https://codeforces.com/problemset/problem/277/A">CF 277 A Learning Languages</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1130/C">CF 1130 C Connect</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/580/C">CF 580 C</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/580/C">CF 580 C Kefa and Park</a></li>
     <li><a href="https://codeforces.com/problemset/problem/510/B">CF 510 B</a></li>
     <li><a href="https://codeforces.com/problemset/problem/839/C">CF 839 C</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1325/C">CF 1325 C</a></li>
