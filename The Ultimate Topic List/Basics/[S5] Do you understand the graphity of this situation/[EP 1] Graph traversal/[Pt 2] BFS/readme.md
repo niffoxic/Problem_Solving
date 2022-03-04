@@ -9,7 +9,7 @@
 <details>
 <summary>Problems</summary>
 <ul>
-    <li><a href="https://codeforces.com/contest/329/problem/B">CF 329 B</a></li>
+    <li><a href="https://codeforces.com/contest/329/problem/B">CF 329 B Biridian Forest</a></li>
     <li><a href="https://codeforces.com/problemset/problem/60/B">CF 60 B</a></li>
     <li><a href="https://codeforces.com/problemset/problem/131/D">CF 131 D</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1321/D">CF 1321 D</a></li>
