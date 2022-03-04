@@ -21,6 +21,6 @@
     <li><a href="https://codeforces.com/problemset/problem/1325/C">CF 1325 C Ehab and Path-etic MEXs</a></li>
     <li><a href="https://www.spoj.com/problems/BUGLIFE/">Spoj BUGLIFE A Bug’s Life</a></li>
     <li><a href="https://codeforces.com/problemset/problem/687/A">CF 687 A NP-Hard Problem</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/1176/E">CF 1176 E</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/1176/E">CF 1176 E Cover it!</a></li>
 </ul>
 </details>
