@@ -19,7 +19,7 @@
     <li><a href="https://codeforces.com/problemset/problem/510/B">CF 510 B Fox And Two Dots</a></li>
     <li><a href="https://codeforces.com/problemset/problem/839/C">CF 839 C Journey</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1325/C">CF 1325 C Ehab and Path-etic MEXs</a></li>
-    <li><a href="https://www.spoj.com/problems/BUGLIFE/">Spoj BUGLIFE</a></li>
+    <li><a href="https://www.spoj.com/problems/BUGLIFE/">Spoj BUGLIFE A Bug’s Life</a></li>
     <li><a href="https://codeforces.com/problemset/problem/687/A">CF 687 A</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1176/E">CF 1176 E</a></li>
 </ul>
