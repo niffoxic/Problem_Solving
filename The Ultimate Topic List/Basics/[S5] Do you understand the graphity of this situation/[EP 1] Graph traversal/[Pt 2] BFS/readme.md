@@ -11,7 +11,7 @@
 <ul>
     <li><a href="https://codeforces.com/contest/329/problem/B">CF 329 B Biridian Forest</a></li>
     <li><a href="https://codeforces.com/problemset/problem/60/B">CF 60 B Serial Time!</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/131/D">CF 131 D</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/131/D">CF 131 D Subway</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1321/D">CF 1321 D</a></li>
     <li><a href="https://codeforces.com/problemset/problem/769/C">CF 769 C Cycle In Maze</a></li>
     <li><a href="https://codeforces.com/problemset/problem/242/C">CF 242 C</a></li>
