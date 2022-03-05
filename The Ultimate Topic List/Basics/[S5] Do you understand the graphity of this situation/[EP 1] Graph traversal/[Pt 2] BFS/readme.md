@@ -14,7 +14,7 @@
     <li><a href="https://codeforces.com/problemset/problem/131/D">CF 131 D Subway</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1321/D">CF 1321 D Navigation System</a></li>
     <li><a href="https://codeforces.com/problemset/problem/769/C">CF 769 C Cycle In Maze</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/242/C">CF 242 C</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/242/C">CF 242 C King's Path</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1307/D">CF 1307 D</a></li>
     <li><a href="https://codeforces.com/problemset/problem/796/D">CF 796 D</a></li>
 </ul>
