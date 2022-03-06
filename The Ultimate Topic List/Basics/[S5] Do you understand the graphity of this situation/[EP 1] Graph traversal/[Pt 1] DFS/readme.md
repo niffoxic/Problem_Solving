@@ -24,3 +24,11 @@
     <li><a href="https://codeforces.com/problemset/problem/1176/E">CF 1176 E Cover it!</a></li>
 </ul>
 </details>
+
+
+<details>
+<summary>Additional Problems</summary>
+<ul>
+    <li><a href="https://www.spoj.com/problems/ABCPATH/">ABCPATH - ABC Path</a></li>
+</ul>
+</details>
