@@ -36,5 +36,6 @@
    <li><a href="https://codeforces.com/problemset/problem/893/C">CF C Rumor</a></li>
    <li><a href="https://codeforces.com/problemset/problem/862/B">CF B Mahmoud and Ehab and the bipartiteness</a></li>
    <li><a href="https://codeforces.com/problemset/problem/755/C">CF C PolandBall and Forest</a></li>
+   <li><a href="https://codeforces.com/problemset/problem/505/B">CF B Mr. Kitayuta's Colorful Graph</a></li>
 </ul>
 </details>
