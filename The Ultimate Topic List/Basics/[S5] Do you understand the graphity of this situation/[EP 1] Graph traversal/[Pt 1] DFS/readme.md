@@ -32,5 +32,6 @@
     <li><a href="https://www.spoj.com/problems/ABCPATH/">ABCPATH - ABC Path</a></li>
     <li><a href="https://codeforces.com/contest/781/problem/C">CF C Underground Lab</a></li>
    <li><a href="https://codeforces.com/contest/734/problem/E">CF E Anton and Tree</a></li>
+   <li><a href="https://codeforces.com/contest/727/problem/A">Transformation: from A to B</a></li>
 </ul>
 </details>
