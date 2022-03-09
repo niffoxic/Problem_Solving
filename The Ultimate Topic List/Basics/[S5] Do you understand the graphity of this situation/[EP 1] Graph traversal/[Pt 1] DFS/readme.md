@@ -40,5 +40,6 @@
    <li><a href="https://codeforces.com/problemset/problem/107/A">CF A Dorm Water Supply</a></li>
    <li><a href="https://codeforces.com/problemset/problem/802/J">CF J Send the Fool Further!</a></li>
    <li><a href="https://codeforces.com/problemset/problem/1263/D">CF D Secret Passwords</a></li>
+   <li><a href="https://codeforces.com/problemset/problem/300/B">CF B Coach</a></li>
 </ul>
 </details>
