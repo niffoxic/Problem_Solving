@@ -43,5 +43,6 @@
    <li><a href="https://codeforces.com/problemset/problem/300/B">CF B Coach</a></li>
    <li><a href="https://codeforces.com/problemset/problem/103/B">CF B Cthulhu</a></li>
    <li><a href="https://codeforces.com/problemset/problem/771/A">CF A Bear and Friendship Condition</a></li>
+   <li><a href="https://codeforces.com/problemset/problem/744/A">CF A Hongcow Builds A Nation</a></li>
 </ul>
 </details>
