@@ -42,5 +42,6 @@
    <li><a href="https://codeforces.com/problemset/problem/1263/D">CF D Secret Passwords</a></li>
    <li><a href="https://codeforces.com/problemset/problem/300/B">CF B Coach</a></li>
    <li><a href="https://codeforces.com/problemset/problem/103/B">CF B Cthulhu</a></li>
+   <li><a href="https://codeforces.com/problemset/problem/771/A">CF A Bear and Friendship Condition</a></li>
 </ul>
 </details>
