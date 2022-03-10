@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-int n, m, res, counts, conflict, visited[2005];
-vector<int> friends[2005], dislike[2005];
+#define template_size 2005
+
+int n, m, res, counts, conflict, visited[template_size];
+vector<int> friends[template_size], dislike[template_size];
 
 void dfs(int v, int root) {
     visited[v] = root;
