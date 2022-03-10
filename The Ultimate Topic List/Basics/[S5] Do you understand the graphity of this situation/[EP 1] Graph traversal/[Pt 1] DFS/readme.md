@@ -46,6 +46,7 @@
    <li><a href="https://codeforces.com/problemset/problem/744/A">CF A Hongcow Builds A Nation</a></li>
    <li><a href="https://codeforces.com/problemset/problem/177/C1">CF C1 Party</a></li>
    <li><a href="https://codeforces.com/problemset/problem/320/B">CF B Ping Pong</a></li>
+   <li><a href="https://codeforces.com/problemset/problem/977/E">CF E Cyclic Components</a></li>
 
 </ul>
 </details>
