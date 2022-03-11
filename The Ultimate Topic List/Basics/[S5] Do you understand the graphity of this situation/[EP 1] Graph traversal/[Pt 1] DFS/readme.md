@@ -48,6 +48,7 @@
    <li><a href="https://codeforces.com/problemset/problem/320/B">CF B Ping Pong</a></li>
    <li><a href="https://codeforces.com/problemset/problem/977/E">CF E Cyclic Components</a></li>
    <li><a href="https://codeforces.com/problemset/problem/34/D">CF D Road Map</a></li>
+   <li><a href="https://codeforces.com/problemset/problem/1613/E">CF E Crazy Robot</a></li>
 
 </ul>
 </details>
