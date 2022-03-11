@@ -10,7 +10,7 @@
 <summary>Problems</summary>
 <ul>
     <li><a href="https://cses.fi/problemset/task/1671">CSES Shortest Routes I</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/229/B">CF 229 B</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/229/B">CF 229 B Planets</a></li>
     <li><a href="https://codeforces.com/problemset/problem/144/D">CF 144 D</a></li>
     <li><a href="https://codeforces.com/problemset/problem/20/C">CF 20 C</a></li>
     <li><a href="https://cses.fi/problemset/task/1195">CSES Flight Discount</a></li>
