@@ -15,7 +15,7 @@ The two pointer or 2p technique, is an op technique that has the power to reduce
     <li><a href="https://codeforces.com/problemset/problem/1343/C">CF 1343 C Alternating Subsequence</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1462/A">CF 1462 A Favorite Sequence</a></li>
     <li><a href="https://codeforces.com/problemset/problem/676/C">CF 676 C Vasya and String</a></li>
-    <li><a href="https://codeforces.com/contest/1354/problem/B">CF 1354 B</a></li>
+    <li><a href="https://codeforces.com/contest/1354/problem/B">CF 1354 B Ternary String</a></li>
     <li><a href="https://codeforces.com/problemset/problem/279/B">CF 279 B</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1199/C">CF 1199 C</a></li>
     <li><a href="https://codeforces.com/contest/296/problem/C">CF 296 C</a></li>
