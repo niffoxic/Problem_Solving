@@ -18,7 +18,7 @@ The two pointer or 2p technique, is an op technique that has the power to reduce
     <li><a href="https://codeforces.com/contest/1354/problem/B">CF 1354 B Ternary String</a></li>
     <li><a href="https://codeforces.com/problemset/problem/279/B">CF 279 B Books</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1199/C">CF 1199 C MP3</a></li>
-    <li><a href="https://codeforces.com/contest/296/problem/C">CF 296 C</a></li>
+    <li><a href="https://codeforces.com/contest/296/problem/C">CF 296 C Greg and Array</a></li>
     <li><a href="https://codeforces.com/contest/1006/problem/C">CF 1006 C</a></li>
 </ul>
 </details>
