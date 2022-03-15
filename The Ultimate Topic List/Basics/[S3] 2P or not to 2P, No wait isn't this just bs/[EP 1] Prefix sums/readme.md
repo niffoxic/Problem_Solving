@@ -16,7 +16,7 @@ The trick is to pre-calculate (to calculate once beforehand for multiple usages 
     <li><a href="https://www.codechef.com/problems/SHIVIGOD">Codechef SHIVIGOD</a></li>
     <li><a href="https://codeforces.com/contest/433/problem/B">CF 433 B</a></li>
     <li><a href="https://codeforces.com/contest/276/problem/C">CF 276 C</a></li>
-    <li><a href="https://codeforces.com/contest/1363/problem/B">CF 1363 B</a></li>
+    <li><a href="https://codeforces.com/contest/1363/problem/B">CF 1363 B Subsequence Hate</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1253/C">CF 1253 C</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1265/C">CF 1265 C</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1118/B">CF 1118 B</a></li>
