@@ -50,7 +50,7 @@ Observe that if $\mathrm{check}(x)$ is `true` then even $\mathrm{check}(x-1)$ mu
 <summary>Problems</summary>
 <ul>
     <li><a href="https://codeforces.com/problemset/problem/706/B">CF 706 B Interesting drink</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/492/B">CF 492 B</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/492/B">CF 492 B Vanya and Lanterns</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1352/C">CF 1352 C</a></li>
     <li><a href="https://codeforces.com/contest/1187/problem/B">CF 1187 B</a></li>
     <li><a href="https://codeforces.com/contest/1201/problem/C">CF 1201 C</a></li>
