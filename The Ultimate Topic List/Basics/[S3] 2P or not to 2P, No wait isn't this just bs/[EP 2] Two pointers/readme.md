@@ -11,7 +11,7 @@ The two pointer or 2p technique, is an op technique that has the power to reduce
 <summary>Problems</summary>
 <ul>
     <li><a href="https://codeforces.com/problemset/problem/381/A">CF 381 A Sereja and Dima</a></li>
-    <li><a href="https://codeforces.com/problemset/problem/6/C">CF 6 C</a></li>
+    <li><a href="https://codeforces.com/problemset/problem/6/C">CF 6 C Alice, Bob and Chocolate</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1343/C">CF 1343 C</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1462/A">CF 1462 A</a></li>
     <li><a href="https://codeforces.com/problemset/problem/676/C">CF 676 C</a></li>
