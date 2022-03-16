@@ -55,7 +55,7 @@ Observe that if $\mathrm{check}(x)$ is `true` then even $\mathrm{check}(x-1)$ mu
     <li><a href="https://codeforces.com/contest/1187/problem/B">CF 1187 B Letters Shop</a></li>
     <li><a href="https://codeforces.com/contest/1201/problem/C">CF 1201 C Maximum Median</a></li>
     <li><a href="https://codeforces.com/contest/1208/problem/B">CF 1208 B Uniqueness</a></li>
-    <li><a href="https://codeforces.com/contest/812/problem/C">CF 812 C</a></li>
+    <li><a href="https://codeforces.com/contest/812/problem/C">CF 812 C Sagheer and Nubian Market</a></li>
     <li><a href="https://codeforces.com/contest/1118/problem/D2">CF 1118 D2</a></li>
 </ul>
 </details>
