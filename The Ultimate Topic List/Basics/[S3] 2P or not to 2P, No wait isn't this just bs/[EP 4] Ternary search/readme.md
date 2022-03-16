@@ -8,7 +8,7 @@ Ternary Search is an extension of binary Search that allows you to locate the mi
 <details>
 <summary>Problems</summary>
 <ul>
-    <li><a href="https://www.codechef.com/problems/ICM2003">CodeChef ICM2003</a></li>
+    <li><a href="https://www.codechef.com/problems/ICM2003">CodeChef ICM2003 Race time!</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1479/A">Codeforces 1479 A</a></li>
     <li><a href="https://codeforces.com/problemset/problem/439/D">Codeforces 439 D</a></li>
     <li><a href="https://codeforces.com/problemset/problem/250/d">CF 250 D</a></li>
