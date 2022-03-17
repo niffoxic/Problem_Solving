@@ -21,9 +21,9 @@ The links that follow are good to start with, but you will most probably have to
 <details>
 <summary>Problems</summary>
 <ul>
-    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_a">AtCoder DP A</a></li>
-    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_b">AtCoder DP B</a></li>
-    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_c">AtCoder DP C</a></li>
+    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_a">AtCoder DP A Frog 1</a></li>
+    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_b">AtCoder DP B Frog 2</a></li>
+    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_c">AtCoder DP C Vocation</a></li>
 </ul>
 </details>
 <br/>
