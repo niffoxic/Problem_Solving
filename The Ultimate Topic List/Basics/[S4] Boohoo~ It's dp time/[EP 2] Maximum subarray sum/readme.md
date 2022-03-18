@@ -10,6 +10,6 @@
     <li><a href="https://cses.fi/problemset/task/1643">CSES Maximum Subarray Sum</a></li>
     <li><a href="https://www.codechef.com/problems/TSOH">Codechef TSOH TWO SACKS OF HAPPINESS</a></li>
     <li><a href="https://www.codechef.com/problems/KOL15B">Codechef KOL15B Finding Hardest Sum Value</a></li>
-    <li><a href="https://codeforces.com/contest/1373/problem/D">CF 1373 D</a></li>
+    <li><a href="https://codeforces.com/contest/1373/problem/D">CF 1373 D Maximum Sum on Even Positions</a></li>
 </ul>
 </details>
