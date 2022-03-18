@@ -8,7 +8,7 @@
 <summary>Problems</summary>
 <ul>
     <li><a href="https://cses.fi/problemset/task/1643">CSES Maximum Subarray Sum</a></li>
-    <li><a href="https://www.codechef.com/problems/TSOH">Codechef TSOH</a></li>
+    <li><a href="https://www.codechef.com/problems/TSOH">Codechef TSOH TWO SACKS OF HAPPINESS</a></li>
     <li><a href="https://www.codechef.com/problems/KOL15B">Codechef KOL15B</a></li>
     <li><a href="https://codeforces.com/contest/1373/problem/D">CF 1373 D</a></li>
 </ul>
