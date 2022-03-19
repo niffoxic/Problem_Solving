@@ -14,7 +14,7 @@ The dp approach is $\mathcal{O}(n^2)$ and helps build intuition and understandin
     <li><a href="https://leetcode.com/problems/longest-increasing-subsequence/">Leetcode 300 Longest Increasing Subsequence</a></li>
     <li><a href="https://codeforces.com/contest/269/problem/B">CF 269 B Greenhouse Effect</a></li>
     <li><a href="https://www.spoj.com/problems/DOSA/">Spoj DOSA - Lalith Dosa</a></li>
-    <li><a href="https://codeforces.com/contest/340/problem/D">CF 340 D</a></li>
+    <li><a href="https://codeforces.com/contest/340/problem/D">CF 340 D Bubble Sort Graph</a></li>
     <li><a href="https://www.spoj.com/problems/ALTSEQ/">Spoj ALTSEQ</a></li>
     <li><a href="https://codeforces.com/contest/1257/problem/E">CF 1257 E</a></li>
 </ul>
