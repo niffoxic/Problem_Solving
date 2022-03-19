@@ -16,6 +16,6 @@
     <li><a href="https://www.spoj.com/problems/TRIP/">Spoj TRIP</a></li>
     <li><a href="https://cses.fi/problemset/task/1639">CSES Edit Distance</a></li>
     <li><a href="https://www.spoj.com/problems/MC/">Spoj MC - Minimum Cost</a></li>
-    <li><a href="https://codeforces.com/contest/1447/problem/D">CF 1447 D</a></li>
+    <li><a href="https://codeforces.com/contest/1447/problem/D">CF 1447 D Catching Cheaters</a></li>
 </ul>
 </details>
