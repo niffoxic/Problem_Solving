@@ -11,7 +11,7 @@ The dp approach is $\mathcal{O}(n^2)$ and helps build intuition and understandin
 <details>
 <summary>Problems</summary>
 <ul>
-    <li><a href="https://leetcode.com/problems/longest-increasing-subsequence/">Leetcode 300</a></li>
+    <li><a href="https://leetcode.com/problems/longest-increasing-subsequence/">Leetcode 300 Longest Increasing Subsequence</a></li>
     <li><a href="https://codeforces.com/contest/269/problem/B">CF 269 B</a></li>
     <li><a href="https://www.spoj.com/problems/DOSA/">Spoj DOSA</a></li>
     <li><a href="https://codeforces.com/contest/340/problem/D">CF 340 D</a></li>
