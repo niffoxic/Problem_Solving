@@ -8,7 +8,7 @@
 <details>
 <summary>Problems</summary>
 <ul>
-    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_h">AtCoder DP H</a></li>
+    <li><a href="https://atcoder.jp/contests/dp/tasks/dp_h">AtCoder DP H Grid 1</a></li>
     <li><a href="https://cses.fi/problemset/task/1638">CSES Grid Paths</a></li>
     <li><a href="https://leetcode.com/problems/minimum-path-sum/">LeetCode Minimum Path Sum</a></li>
 </ul>
