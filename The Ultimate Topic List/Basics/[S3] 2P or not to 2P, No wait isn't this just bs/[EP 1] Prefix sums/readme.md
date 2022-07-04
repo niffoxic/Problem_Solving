@@ -21,6 +21,7 @@ The trick is to pre-calculate (to calculate once beforehand for multiple usages 
     <li><a href="https://codeforces.com/problemset/problem/1265/C">CF 1265 C Beautiful Regional Contest</a></li>
     <li><a href="https://codeforces.com/problemset/problem/1118/B">CF 1118 B Tanya and Candies</a></li>
     <li><a href="https://codeforces.com/contest/1200/problem/D">CF 1200 D</a></li>
+    <li><a href="https://www.codechef.com/problems/SNAKEEAT/">CodeChef Snake Eating </a></li>
 </ul>
 </details>
 <br/>
