@@ -12,9 +12,9 @@ void solve(int case_no){
         int days_needed = ((s - covered) / x) + ((s - covered) % x != 0);
         // cout << "days needed if we use normal x: " << days_needed << "\n";
         int intervals = others[index].first - days - 1;
-        // cout << "Days we have to allot normal days: " << intervals << "\n";
+        // cout << "Days we have to allot normal x: " << intervals << "\n";
 
-        // when we have enough normal days then needed
+        // when we have enough normal days than needed
         if (days_needed <= intervals) days += days_needed, covered += days_needed * x;
         else{
             // when we don't have enough normal days to cover distance.
