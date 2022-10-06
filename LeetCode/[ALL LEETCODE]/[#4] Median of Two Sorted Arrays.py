@@ -6,10 +6,7 @@ class Solution(object):
         :rtype: float
         """
         total_len = len(nums1) + len(nums2)
-        if total_len & 1:
-            return self.position(nums1, nums2, total_len // 2)
-        else:
-            return self.position(nums1, nums2, total_len // 2, another=True)
+        return self.position(nums1, nums2, total_len // 2, ((total_len) // 2) % 2 == 0)
 
     def position(self, nums1, nums2, mid_at, another=False):
         left, right = 0, 0
